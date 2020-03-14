@@ -23,23 +23,14 @@ for(int i=0;i<arr1.length;i++)//ITERATION
 		
 		
 		for(int j=count+1;j<=i;j++ )
-		{/*
-			if(arr1[j]>0)
-			{*//*
-				for(int k=j+1;k<i;k++)
-				{*/
+		{
 					 temp3=arr1[j]; //if count=0 ie count=count+1
 					// temp4=arr1[j+1];
 					arr1[j]=temp2;
 					temp2=temp3;
 					//arr1[j+1]=temp3;
-					
-					
-					
-				//}
-				
-				//break;
-			//}
+		
+			
 		}
 
 		count++;
